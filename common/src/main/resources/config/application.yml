@@ -1,0 +1,14 @@
+
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:/mybatis/*.xml
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/trainy
+    username: trainy
+    password: trainy
+    type: com.alibaba.druid.pool.DruidDataSource
